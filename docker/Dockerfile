@@ -1,9 +1,9 @@
-# Dockerfile for exampleorg/uni-registrar-driver-did-example
+# Dockerfile for exampleorg/uni-registrar-driver-did-factom
 
 FROM node:10
-MAINTAINER Markus Sabadello <markus@danubetech.com>
+MAINTAINER Scott Malley <smalley@sphereon.com>
 
-# build uni-registrar-driver-did-example
+# build uni-registrar-driver-did-factom
 
 WORKDIR /usr/src/app
 COPY package.json ./
@@ -12,7 +12,7 @@ COPY . .
 
 # variables
 
-ENV uniregistrar_driver_did_example_exampleSetting=exampleSetting
+ENV uniregistrar_driver_did_factom_exampleSetting=exampleSetting
 
 # done
 

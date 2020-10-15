@@ -1,11 +1,11 @@
 {
-  "name": "uni-registrar-driver-did-example",
+  "name": "uni-registrar-driver-did-factom",
   "version": "1.0.0",
-  "description": "Example Universal Registrar Driver",
+  "description": "Factom Universal Registrar Driver",
   "main": "index.js",
   "scripts": {
-	"prestart": "npm install",
-	"start": "node index.js"
+    "prestart": "npm install",
+    "start": "node index.js"
   },
   "keywords": [
     "swagger"
@@ -13,7 +13,12 @@
   "license": "Unlicense",
   "private": true,
   "dependencies": {
+    "bs58": "^4.0.1",
     "connect": "^3.2.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "factom": "^1.4.0",
+    "factom-identity-lib": "^0.2.1",
     "js-yaml": "^3.3.0",
     "oas3-tools": "^2.0.2"
   }

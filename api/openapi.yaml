@@ -30,7 +30,7 @@ paths:
           description: invalid input!
         "500":
           description: error!
-      x-swagger-router-controller: Default
+      x-swagger-router-controller: DidController
   /update:
     post:
       summary: Updates a DID.
@@ -51,7 +51,7 @@ paths:
           description: invalid input!
         "500":
           description: error!
-      x-swagger-router-controller: Default
+      x-swagger-router-controller: DidController
   /deactivate:
     post:
       summary: Deactivates a DID.
@@ -72,7 +72,7 @@ paths:
           description: invalid input!
         "500":
           description: error!
-      x-swagger-router-controller: Default
+      x-swagger-router-controller: DidController
 components:
   schemas:
     RegisterRequest:
