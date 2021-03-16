@@ -13,7 +13,7 @@ This is an example [Universal Registrar](https://github.com/decentralized-identi
 ```
 docker build -f ./docker/Dockerfile . -t exampleorg/uni-registrar-driver-did-example
 docker run -p 9080:9080 exampleorg/uni-registrar-driver-did-example
-curl -X POST http://localhost:9080/1.0/register -H "Content-Type: application/json"
+curl -X POST http://localhost:9080/1.0/create -H "Content-Type: application/json"
 ```
 
 ## Build and Run (NodeJS)

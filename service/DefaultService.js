@@ -15,12 +15,12 @@ exports.deactivate = function(body) {
 
 
 /**
- * Registers a DID.
+ * Creates a DID.
  *
- * body RegisterRequest  (optional)
- * returns RegisterState
+ * body CreateRequest  (optional)
+ * returns CreateState
  **/
-exports.register = function(body) {
+exports.create = function(body) {
   return new Promise(function(resolve, reject) {
     var response = {
       "jobId" : null,
